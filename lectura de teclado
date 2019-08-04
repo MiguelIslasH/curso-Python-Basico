@@ -1,0 +1,14 @@
+#Entrada de teclado, se almacenará como string
+
+variable = input("Introduce tu nombre ")
+print(variable)
+
+#Si queremos castear esta entrada a entero
+
+entero = int(input("Introduce tu numero favorito "))
+print(entero)
+
+#de igual forma si necesitaramos otro tipo de dato como flotante
+
+flotante = float(input("Introduce tu numero flotante "))
+print(flotante)

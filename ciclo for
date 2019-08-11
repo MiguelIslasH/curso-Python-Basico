@@ -1,0 +1,37 @@
+#Un ciclo for nos permitira iterar o recorrer un objeto o bien un rango
+#veamos como podemos recorrer un rango
+
+#usamos una variable i que tomara los valores de el rango, en este caso seran valores numericos
+
+for i in range(10):
+  print(i)
+  
+#Este for nos permitirá imprimir 10 numeros, del 0 al 9
+#Para los que vienen de otros lenguajes un for en Python es como un for each
+
+#Ahora veamos como podemos recorrer una lista en un for
+
+lista = [1,2,"verde",19.0,8,10,11]
+
+for i in lista:
+  print (i)
+  
+#De esta forma este for nos imprimirá los elementos de la lista, la i tomara los valores
+#de cada uno de estos elementos
+#es decir imprimirá
+#1
+#2
+#'verde'
+#19.0
+#etc...
+
+#hagamos un ejemplo imprimiendo los numeros pares del 0 al 100
+
+for i in range(100):
+  if i % 2 == 0:
+    print("Numero par",i)
+  else:
+    print("Numero impar",i)
+ 
+ #así podemos separar los numeros, este for irá desde 0 hasta 99, ya que el valor que se pone en el 
+ #rango es el límite, por lo que no entra en nuestro ciclo
